@@ -195,7 +195,7 @@ HOW TO RUN
 
 1 Clone project
 
-git clone https://github.com/your-username/revshop.git
+git clone https://github.com/VamsiUjwal/RevShop-P2.git
 
 2 Open in IntelliJ
 
