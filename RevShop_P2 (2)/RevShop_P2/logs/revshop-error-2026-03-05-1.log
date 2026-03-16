@@ -1,0 +1,4 @@
+2026-03-05 19:24:16.289 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-12899: value too large for column "REVSHOP"."PRODUCT"."IMAGE_URL" (actual: 324, maximum: 255)
+
+2026-03-05 19:24:16.315 [http-nio-9090-exec-9] ERROR com.rev.app.controller.SellerController - Failed to add product iPhone 17: could not execute statement [ORA-12899: value too large for column "REVSHOP"."PRODUCT"."IMAGE_URL" (actual: 324, maximum: 255)
+] [insert into product (category,created_at,description,discounted_price,image_url,inventory_threshold,category_id,name,price,quantity,seller_id,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]

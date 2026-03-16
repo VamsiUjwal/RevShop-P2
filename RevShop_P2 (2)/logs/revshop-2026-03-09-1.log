@@ -1,0 +1,804 @@
+2026-03-09 10:48:31.915 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-09 10:48:32.130 [restartedMain] INFO  com.rev.app.RevShopP2Application - Starting RevShopP2Application using Java 21.0.9 with PID 11032 (C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2\target\classes started by aravi in C:\Users\aravi\Desktop\RevShop_P2 (2))
+2026-03-09 10:48:32.196 [restartedMain] DEBUG com.rev.app.RevShopP2Application - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-03-09 10:48:32.204 [restartedMain] INFO  com.rev.app.RevShopP2Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-09 10:48:32.482 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\aravi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/aravi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2026-03-09 10:48:32.482 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-09 10:48:32.490 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-09 10:48:36.832 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09 10:48:37.324 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 446 ms. Found 13 JPA repository interfaces.
+2026-03-09 10:48:39.844 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-09 10:48:39.893 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:48:39.912 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-09 10:48:39.912 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-09 10:48:40.209 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-09 10:48:40.217 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7719 ms
+2026-03-09 10:48:40.731 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-09 10:48:42.731 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@14c902d2
+2026-03-09 10:48:42.737 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-09 10:48:43.364 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-09 10:48:43.724 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-09 10:48:43.881 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-09 10:48:45.718 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09 10:48:46.076 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-09 10:48:50.309 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09 10:48:51.115 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 10:48:52.650 [restartedMain] DEBUG com.rev.app.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-09 10:48:54.785 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09 10:48:55.249 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-09 10:48:55.870 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b169552, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bf3b416, org.springframework.security.web.context.SecurityContextHolderFilter@555a56b8, org.springframework.security.web.header.HeaderWriterFilter@63b74eaf, org.springframework.web.filter.CorsFilter@4e087d62, org.springframework.security.web.authentication.logout.LogoutFilter@3a2f79c1, com.rev.app.config.JwtAuthFilter@5175a4f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@150c104a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dbe8d0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67aa49d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d13b8e9, org.springframework.security.web.session.SessionManagementFilter@5bcdf44f, org.springframework.security.web.access.ExceptionTranslationFilter@4026b31d, org.springframework.security.web.access.intercept.AuthorizationFilter@2fb9e789]
+2026-03-09 10:48:57.194 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-09 10:48:57.300 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:48:57.441 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2026-03-09 10:48:57.476 [restartedMain] INFO  com.rev.app.RevShopP2Application - Started RevShopP2Application in 30.606 seconds (process running for 35.131)
+2026-03-09 10:48:57.506 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - Starting database migration for Item-Level Order Status...
+2026-03-09 10:48:57.555 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - 'status' column already exists in 'order_item'.
+2026-03-09 10:48:59.212 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-09 10:48:59.212 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-09 10:48:59.216 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-03-09 10:48:59.346 [http-nio-9090-exec-1] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 10:48:59.347 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 10:48:59.670 [http-nio-9090-exec-1] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 10:49:00.701 [http-nio-9090-exec-4] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 10:49:01.192 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:04.107 [http-nio-9090-exec-6] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 10:49:04.213 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:21.266 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:21.388 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:21.432 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:21.462 [http-nio-9090-exec-9] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 10:49:21.462 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 10:49:21.470 [http-nio-9090-exec-9] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 10:49:21.752 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:26.233 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:26.248 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:26.264 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:26.264 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 10:49:26.588 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:32.365 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:32.382 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:32.389 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:32.395 [http-nio-9090-exec-7] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 10:49:32.396 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 10:49:32.400 [http-nio-9090-exec-7] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 10:49:32.511 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:38.843 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:38.865 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:38.878 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:38.885 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching product by ID: 25
+2026-03-09 10:49:38.894 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.ReviewServiceImpl - Fetching reviews for product ID: 25
+2026-03-09 10:49:39.199 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:41.219 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:41.235 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:41.248 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:41.269 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.CartServiceImpl - Adding 1 of product 25 to cart for user 25
+2026-03-09 10:49:41.528 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:41.544 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:41.559 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:41.562 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:41.879 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:45.521 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:45.534 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:45.546 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:45.551 [http-nio-9090-exec-10] INFO  com.rev.app.service.Impl.CartServiceImpl - Removing cart item 4
+2026-03-09 10:49:45.593 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:45.602 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:45.612 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:45.617 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:45.706 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:49:47.370 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:47.378 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:47.389 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:47.389 [http-nio-9090-exec-5] INFO  com.rev.app.service.Impl.CartServiceImpl - Removing cart item 3
+2026-03-09 10:49:47.405 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:47.422 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:49:47.422 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:49:47.422 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:49:47.517 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:01.781 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:50:01.795 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:50:01.810 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:50:01.814 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:50:01.820 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.AddressServiceImpl - Fetching addresses for user ID: 25
+2026-03-09 10:50:02.130 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:09.416 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:50:09.450 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:50:09.450 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:50:09.450 [http-nio-9090-exec-2] INFO  com.rev.app.controller.BuyerController - User riyaz11@gmail.com processing checkout payment COD to address 1
+2026-03-09 10:50:09.468 [http-nio-9090-exec-2] INFO  com.rev.app.service.Impl.OrderServiceImpl - Processing order placement for user ID: 25
+2026-03-09 10:50:09.533 [http-nio-9090-exec-2] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order #4 has been placed successfully!
+2026-03-09 10:50:09.533 [http-nio-9090-exec-2] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 26: New order received: #4 for product t shirt
+2026-03-09 10:50:09.617 [http-nio-9090-exec-2] INFO  com.rev.app.controller.BuyerController - Order placed successfully by user riyaz11@gmail.com
+2026-03-09 10:50:09.634 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:50:09.642 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:50:09.656 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:50:09.660 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 10:50:10.020 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:16.033 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:50:16.046 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:50:16.064 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:50:16.064 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 10:50:16.064 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 10:50:16.080 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 10:50:18.298 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:22.081 [http-nio-9090-exec-2] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 10:50:22.181 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:33.785 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:50:33.798 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:50:33.803 [http-nio-9090-exec-7] INFO  com.rev.app.controller.SellerController - Seller hemanth10@gmail.com loaded dashboard.
+2026-03-09 10:50:33.877 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:50:34.172 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:38.109 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:50:38.119 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:50:38.298 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:50:49.911 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:50:49.925 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:50:49.934 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 5 to status PROCESSING
+2026-03-09 10:50:49.957 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order item #5 status has been updated to PROCESSING
+2026-03-09 10:50:49.993 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:50:49.999 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:50:50.167 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:51:08.322 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:51:08.332 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:51:08.339 [http-nio-9090-exec-10] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 5 to status SHIPPED
+2026-03-09 10:51:08.343 [http-nio-9090-exec-10] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order item #5 status has been updated to SHIPPED
+2026-03-09 10:51:08.377 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:51:08.385 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:51:08.507 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:51:16.696 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:51:16.704 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:51:16.712 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 26
+2026-03-09 10:51:16.797 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:51:28.329 [http-nio-9090-exec-8] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 10:51:28.412 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:51:38.600 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:51:38.607 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:51:38.618 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:51:38.622 [http-nio-9090-exec-3] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 10:51:38.622 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 10:51:38.626 [http-nio-9090-exec-3] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 10:51:38.834 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:51:43.323 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:51:43.338 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:51:43.349 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:51:43.354 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 10:51:43.494 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:52:03.448 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:52:03.458 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:52:03.464 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:52:03.559 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:52:05.912 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 10:52:05.924 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 10:52:05.924 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 10:52:06.007 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:56:27.334 [SpringApplicationShutdownHook] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:56:27.373 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 10:56:27.406 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-09 10:56:27.470 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-09 10:56:37.165 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-09 10:56:37.453 [restartedMain] INFO  com.rev.app.RevShopP2Application - Starting RevShopP2Application using Java 21.0.9 with PID 8484 (C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2\target\classes started by aravi in C:\Users\aravi\Desktop\RevShop_P2 (2))
+2026-03-09 10:56:37.465 [restartedMain] DEBUG com.rev.app.RevShopP2Application - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-03-09 10:56:37.465 [restartedMain] INFO  com.rev.app.RevShopP2Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-09 10:56:37.718 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\aravi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/aravi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2026-03-09 10:56:37.721 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-09 10:56:37.721 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-09 10:56:39.985 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09 10:56:40.257 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 247 ms. Found 13 JPA repository interfaces.
+2026-03-09 10:56:41.666 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-09 10:56:41.685 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:56:41.696 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-09 10:56:41.696 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-09 10:56:41.803 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-09 10:56:41.803 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4074 ms
+2026-03-09 10:56:42.141 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-09 10:56:42.796 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3d79ecf7
+2026-03-09 10:56:42.803 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-09 10:56:42.953 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-09 10:56:43.178 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-09 10:56:43.296 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-09 10:56:43.820 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09 10:56:44.039 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-09 10:56:46.453 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09 10:56:46.829 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 10:56:47.466 [restartedMain] DEBUG com.rev.app.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-09 10:56:48.888 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09 10:56:49.049 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-09 10:56:49.461 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2983aeb4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5acba80e, org.springframework.security.web.context.SecurityContextHolderFilter@4d15329, org.springframework.security.web.header.HeaderWriterFilter@68048c51, org.springframework.web.filter.CorsFilter@32ce90e2, org.springframework.security.web.authentication.logout.LogoutFilter@7189056c, com.rev.app.config.JwtAuthFilter@613dc553, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@385a06eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2aa8a682, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b6e300, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35e7c75e, org.springframework.security.web.session.SessionManagementFilter@63cfb697, org.springframework.security.web.access.ExceptionTranslationFilter@73c3106, org.springframework.security.web.access.intercept.AuthorizationFilter@267ab822]
+2026-03-09 10:56:50.017 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-09 10:56:50.053 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:56:50.081 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2026-03-09 10:56:50.084 [restartedMain] INFO  com.rev.app.RevShopP2Application - Started RevShopP2Application in 13.988 seconds (process running for 17.301)
+2026-03-09 10:56:50.096 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - Starting database migration for Item-Level Order Status...
+2026-03-09 10:56:50.106 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - 'status' column already exists in 'order_item'.
+2026-03-09 10:57:07.889 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 10:57:07.894 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-09 10:57:07.905 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-09 10:57:58.812 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-09 10:57:58.903 [restartedMain] INFO  com.rev.app.RevShopP2Application - Starting RevShopP2Application using Java 21.0.9 with PID 13800 (C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2\target\classes started by aravi in C:\Users\aravi\Desktop\RevShop_P2 (2))
+2026-03-09 10:57:58.904 [restartedMain] DEBUG com.rev.app.RevShopP2Application - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-03-09 10:57:58.904 [restartedMain] INFO  com.rev.app.RevShopP2Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-09 10:57:59.059 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\aravi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/aravi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2026-03-09 10:57:59.059 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-09 10:57:59.069 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-09 10:58:01.531 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09 10:58:01.797 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 254 ms. Found 13 JPA repository interfaces.
+2026-03-09 10:58:03.115 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-09 10:58:03.141 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:58:03.141 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-09 10:58:03.147 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-09 10:58:03.235 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-09 10:58:03.235 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4163 ms
+2026-03-09 10:58:03.484 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-09 10:58:03.934 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7ea9d2c3
+2026-03-09 10:58:03.941 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-09 10:58:04.071 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-09 10:58:04.202 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-09 10:58:04.281 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-09 10:58:04.681 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09 10:58:04.855 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-09 10:58:07.046 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09 10:58:07.384 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 10:58:07.925 [restartedMain] DEBUG com.rev.app.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-09 10:58:08.722 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09 10:58:08.877 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-09 10:58:09.234 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62b89393, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d3a3c8e, org.springframework.security.web.context.SecurityContextHolderFilter@267ab822, org.springframework.security.web.header.HeaderWriterFilter@7d5a1e05, org.springframework.web.filter.CorsFilter@3d098810, org.springframework.security.web.authentication.logout.LogoutFilter@3000082f, com.rev.app.config.JwtAuthFilter@2582d93, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7af14647, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36d62f1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2983aeb4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ca90f01, org.springframework.security.web.session.SessionManagementFilter@6e1e1402, org.springframework.security.web.access.ExceptionTranslationFilter@6fd3319b, org.springframework.security.web.access.intercept.AuthorizationFilter@56df2e44]
+2026-03-09 10:58:09.608 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-09 10:58:09.631 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-09 10:58:09.655 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2026-03-09 10:58:09.666 [restartedMain] INFO  com.rev.app.RevShopP2Application - Started RevShopP2Application in 11.62 seconds (process running for 14.11)
+2026-03-09 10:58:09.671 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - Starting database migration for Item-Level Order Status...
+2026-03-09 10:58:09.679 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - 'status' column already exists in 'order_item'.
+2026-03-09 10:58:46.198 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-09 10:58:46.199 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-09 10:58:46.202 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-09 10:58:47.336 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:58:53.625 [http-nio-9090-exec-5] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 10:58:53.625 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 10:58:53.917 [http-nio-9090-exec-5] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 10:58:54.073 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:58:56.917 [http-nio-9090-exec-9] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 10:58:57.051 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:59:08.781 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:59:08.813 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:08.824 [http-nio-9090-exec-3] INFO  com.rev.app.controller.SellerController - Seller hemanth10@gmail.com loaded dashboard.
+2026-03-09 10:59:08.890 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:09.149 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:59:13.639 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:59:13.655 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:13.844 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:59:21.796 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:59:21.811 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:21.829 [http-nio-9090-exec-10] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 5 to status DELIVERED
+2026-03-09 10:59:21.851 [http-nio-9090-exec-10] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order item #5 status has been updated to DELIVERED
+2026-03-09 10:59:21.996 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:59:22.019 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:22.246 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:59:53.266 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:59:53.283 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:53.288 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 26
+2026-03-09 10:59:53.396 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 10:59:59.864 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 10:59:59.876 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 10:59:59.882 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 26
+2026-03-09 10:59:59.968 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:00:04.056 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:00:04.068 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:00:04.078 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 26
+2026-03-09 11:00:04.162 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:00:04.238 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:00:04.246 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:00:04.251 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 26
+2026-03-09 11:00:04.384 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:00:08.841 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:00:08.854 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:00:08.862 [http-nio-9090-exec-7] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:00:08.862 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:00:08.867 [http-nio-9090-exec-7] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:00:08.961 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:00.320 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:01:00.321 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:01:00.337 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:01:00.719 [http-nio-9090-exec-1] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:01:01.915 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:06.969 [http-nio-9090-exec-5] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:01:07.102 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:15.459 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:01:15.468 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:01:15.527 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:01:15.537 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:01:15.537 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:01:15.543 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:01:15.745 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:24.653 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:01:24.663 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:01:24.675 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:01:24.682 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:01:24.847 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:29.533 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:01:29.548 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:01:29.559 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:01:29.574 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 4
+2026-03-09 11:01:29.880 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:47.659 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:01:47.676 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:01:47.684 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:01:47.694 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:01:47.694 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:01:47.702 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:01:47.791 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:53.417 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:01:53.428 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:01:53.438 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:01:53.454 [http-nio-9090-exec-1] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: SPORTS, Keyword search: null
+2026-03-09 11:01:53.455 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:01:53.553 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:01:55.422 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:01:55.435 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:01:55.442 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:01:55.452 [http-nio-9090-exec-6] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:01:55.452 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:01:55.455 [http-nio-9090-exec-6] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:01:55.535 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:02:00.963 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:00.972 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:00.981 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:00.987 [http-nio-9090-exec-9] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: ELECTRONICS, Keyword search: null
+2026-03-09 11:02:00.987 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:02:01.086 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:02:05.457 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:05.483 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:05.489 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:05.504 [http-nio-9090-exec-3] INFO  com.rev.app.service.Impl.CartServiceImpl - Adding 1 of product 23 to cart for user 25
+2026-03-09 11:02:05.554 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:05.561 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:05.567 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:05.573 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:05.695 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:02:12.421 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:12.430 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:12.440 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:12.452 [http-nio-9090-exec-7] INFO  com.rev.app.service.Impl.CartServiceImpl - Removing cart item 5
+2026-03-09 11:02:12.497 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:12.503 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:12.512 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:12.518 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:12.645 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:02:13.976 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:13.984 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:13.994 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:14.001 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:14.004 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.AddressServiceImpl - Fetching addresses for user ID: 25
+2026-03-09 11:02:14.129 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:02:31.355 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:31.374 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:31.388 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:31.398 [http-nio-9090-exec-4] INFO  com.rev.app.controller.BuyerController - User riyaz11@gmail.com processing checkout payment DEBIT_CARD to address 1
+2026-03-09 11:02:31.399 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.OrderServiceImpl - Processing order placement for user ID: 25
+2026-03-09 11:02:31.429 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Generated mock transaction ID TXN-1773079351429 for non-COD payment
+2026-03-09 11:02:31.433 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order #5 has been placed successfully!
+2026-03-09 11:02:31.435 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 24: New order received: #5 for product iphone 17 pro
+2026-03-09 11:02:31.467 [http-nio-9090-exec-4] INFO  com.rev.app.controller.BuyerController - Order placed successfully by user riyaz11@gmail.com
+2026-03-09 11:02:31.477 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:02:31.482 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:02:31.495 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:02:31.502 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:02:31.900 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:07:07.897 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 11:07:07.903 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-09 11:07:07.936 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-09 11:07:22.821 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-09 11:07:22.903 [restartedMain] INFO  com.rev.app.RevShopP2Application - Starting RevShopP2Application using Java 21.0.9 with PID 868 (C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2\target\classes started by aravi in C:\Users\aravi\Desktop\RevShop_P2 (2))
+2026-03-09 11:07:22.921 [restartedMain] DEBUG com.rev.app.RevShopP2Application - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-03-09 11:07:22.921 [restartedMain] INFO  com.rev.app.RevShopP2Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-09 11:07:23.071 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\aravi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/aravi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2026-03-09 11:07:23.071 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-09 11:07:23.071 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-09 11:07:25.085 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09 11:07:25.283 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 185 ms. Found 13 JPA repository interfaces.
+2026-03-09 11:07:26.452 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-09 11:07:26.486 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-09 11:07:26.493 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-09 11:07:26.493 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-09 11:07:26.592 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-09 11:07:26.592 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3514 ms
+2026-03-09 11:07:26.852 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-09 11:07:27.386 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@28fb7a42
+2026-03-09 11:07:27.391 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-09 11:07:27.562 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-09 11:07:27.776 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-09 11:07:27.875 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-09 11:07:28.484 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09 11:07:28.725 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-09 11:07:31.390 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09 11:07:31.739 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 11:07:32.276 [restartedMain] DEBUG com.rev.app.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-09 11:07:32.963 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09 11:07:33.146 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-09 11:07:33.506 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@195bd7df, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59cfe0ed, org.springframework.security.web.context.SecurityContextHolderFilter@75fe6aa6, org.springframework.security.web.header.HeaderWriterFilter@6181bfd0, org.springframework.web.filter.CorsFilter@6b6d9132, org.springframework.security.web.authentication.logout.LogoutFilter@4669a68b, com.rev.app.config.JwtAuthFilter@6b1958cf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@32401a1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31fc076a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@362dff16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55bc1862, org.springframework.security.web.session.SessionManagementFilter@67aa49d7, org.springframework.security.web.access.ExceptionTranslationFilter@4be42341, org.springframework.security.web.access.intercept.AuthorizationFilter@5d13b8e9]
+2026-03-09 11:07:33.876 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-09 11:07:33.896 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-09 11:07:33.920 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2026-03-09 11:07:33.935 [restartedMain] INFO  com.rev.app.RevShopP2Application - Started RevShopP2Application in 11.881 seconds (process running for 14.46)
+2026-03-09 11:07:33.946 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - Starting database migration for Item-Level Order Status...
+2026-03-09 11:07:33.952 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - 'status' column already exists in 'order_item'.
+2026-03-09 11:07:45.983 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-09 11:07:45.984 [http-nio-9090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-09 11:07:45.987 [http-nio-9090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-03-09 11:07:46.111 [http-nio-9090-exec-3] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:07:46.915 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:07:49.575 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:07:49.670 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:07:49.690 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:07:49.709 [http-nio-9090-exec-5] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:07:49.709 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:07:49.721 [http-nio-9090-exec-5] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:07:50.002 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:07:53.753 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:07:53.771 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:07:53.783 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:07:53.792 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:07:54.152 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:01.225 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:01.236 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:08:01.246 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:08:01.253 [http-nio-9090-exec-4] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:08:01.254 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:08:01.258 [http-nio-9090-exec-4] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:08:01.367 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:04.309 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:04.324 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:08:04.329 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:08:04.337 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:04.450 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:14.815 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:14.829 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:08:14.842 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:08:14.852 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:14.861 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.AddressServiceImpl - Fetching addresses for user ID: 25
+2026-03-09 11:08:14.981 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:19.560 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:19.575 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:08:19.583 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:08:19.599 [http-nio-9090-exec-1] INFO  com.rev.app.controller.BuyerController - User riyaz11@gmail.com processing checkout payment COD to address 1
+2026-03-09 11:08:19.609 [http-nio-9090-exec-1] INFO  com.rev.app.service.Impl.OrderServiceImpl - Processing order placement for user ID: 25
+2026-03-09 11:08:19.702 [http-nio-9090-exec-1] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order #6 has been placed successfully!
+2026-03-09 11:08:19.708 [http-nio-9090-exec-1] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 24: New order received: #6 for product iphone 17 pro
+2026-03-09 11:08:19.778 [http-nio-9090-exec-1] INFO  com.rev.app.controller.BuyerController - Order placed successfully by user riyaz11@gmail.com
+2026-03-09 11:08:19.797 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:19.807 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:08:19.817 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:08:19.833 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:08:20.063 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:22.978 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:22.992 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:08:22.998 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:08:23.005 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:08:23.749 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:36.986 [http-nio-9090-exec-3] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:08:37.070 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:48.249 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:08:48.260 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:08:48.269 [http-nio-9090-exec-7] INFO  com.rev.app.controller.SellerController - Seller hemanth10@gmail.com loaded dashboard.
+2026-03-09 11:08:48.307 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:08:48.518 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:53.981 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:08:54.002 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:08:54.148 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:58.422 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:08:58.440 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:08:58.591 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:58.599 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:08:58.606 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:08:58.836 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:08:59.865 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:08:59.871 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:09:00.036 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:09:08.184 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:09:08.197 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:09:08.205 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:09:08.218 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:09:08.635 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:09:56.094 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:09:56.107 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:09:56.113 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:09:56.114 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:09:56.119 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:09:59.050 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:03.421 [http-nio-9090-exec-6] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:10:03.503 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:11.638 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:11.645 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:11.650 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:11.656 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:10:11.656 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:10:11.664 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:10:11.816 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:16.206 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:16.220 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:16.224 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:16.317 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:16.379 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:16.387 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:16.392 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:16.515 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:17.799 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:17.814 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:17.820 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:17.906 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:32.822 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:32.838 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:32.846 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:32.959 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:34.476 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:34.499 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:34.504 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:34.642 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:34.866 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:34.877 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:34.882 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:34.999 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:38.349 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:10:38.371 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:10:38.377 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:10:38.383 [http-nio-9090-exec-3] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:10:38.383 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:10:38.388 [http-nio-9090-exec-3] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:10:38.475 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:10:48.776 [http-nio-9090-exec-7] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:10:48.927 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:11:01.097 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:11:01.103 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:01.103 [http-nio-9090-exec-2] INFO  com.rev.app.controller.SellerController - Seller hemanth10@gmail.com loaded dashboard.
+2026-03-09 11:11:01.146 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:01.295 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:11:07.683 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:11:07.699 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:07.962 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:11:14.640 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:11:14.651 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:14.661 [http-nio-9090-exec-9] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: FASHION, Keyword search: null
+2026-03-09 11:11:14.661 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:11:14.747 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:11:16.276 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:11:16.284 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:16.302 [http-nio-9090-exec-3] INFO  com.rev.app.service.Impl.CartServiceImpl - Adding 1 of product 25 to cart for user 26
+2026-03-09 11:11:16.308 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Creating new cart for user 26
+2026-03-09 11:11:16.407 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:11:16.413 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:16.417 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 26
+2026-03-09 11:11:16.657 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:11:18.603 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:11:18.621 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:11:18.622 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 26
+2026-03-09 11:11:18.636 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.AddressServiceImpl - Fetching addresses for user ID: 26
+2026-03-09 11:11:18.799 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:13:40.887 [http-nio-9090-exec-2] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:13:40.888 [http-nio-9090-exec-2] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:13:40.933 [http-nio-9090-exec-2] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:13:41.344 [http-nio-9090-exec-5] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:13:41.606 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:13:46.867 [http-nio-9090-exec-4] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:13:47.183 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:13:53.737 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:13:53.757 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:13:53.768 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:13:53.778 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:13:53.778 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:13:53.782 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:13:54.014 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:13:56.567 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:13:56.584 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:13:56.588 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:13:56.597 [http-nio-9090-exec-5] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: FASHION, Keyword search: null
+2026-03-09 11:13:56.597 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:13:56.726 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:13:58.298 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:13:58.304 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:13:58.314 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:13:58.320 [http-nio-9090-exec-9] INFO  com.rev.app.service.Impl.CartServiceImpl - Adding 1 of product 25 to cart for user 25
+2026-03-09 11:13:58.576 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:13:58.582 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:13:58.585 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:13:58.590 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:13:58.816 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:14:00.420 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:14:00.436 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:14:00.445 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:14:00.449 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:14:00.453 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.AddressServiceImpl - Fetching addresses for user ID: 25
+2026-03-09 11:14:00.749 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:14:06.652 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:14:06.684 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:14:06.693 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:14:06.700 [http-nio-9090-exec-4] INFO  com.rev.app.controller.BuyerController - User riyaz11@gmail.com processing checkout payment COD to address 1
+2026-03-09 11:14:06.700 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.OrderServiceImpl - Processing order placement for user ID: 25
+2026-03-09 11:14:06.744 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order #7 has been placed successfully!
+2026-03-09 11:14:06.747 [http-nio-9090-exec-4] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 26: New order received: #7 for product t shirt
+2026-03-09 11:14:06.801 [http-nio-9090-exec-4] INFO  com.rev.app.controller.BuyerController - Order placed successfully by user riyaz11@gmail.com
+2026-03-09 11:14:06.810 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:14:06.816 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:14:06.819 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:14:06.828 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:14:07.325 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:14:12.284 [http-nio-9090-exec-3] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:14:12.441 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:14:21.107 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:14:21.115 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:14:21.124 [http-nio-9090-exec-4] INFO  com.rev.app.controller.SellerController - Seller hemanth10@gmail.com loaded dashboard.
+2026-03-09 11:14:21.229 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:14:21.505 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:14:34.812 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:14:34.828 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:14:35.225 [http-nio-9090-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:14:46.208 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:14:46.221 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:14:46.236 [http-nio-9090-exec-5] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 8 to status DELIVERED
+2026-03-09 11:14:46.287 [http-nio-9090-exec-5] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order item #8 status has been updated to DELIVERED
+2026-03-09 11:14:46.304 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:14:46.308 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:14:46.507 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:15:00.284 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 26
+2026-03-09 11:15:00.292 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 26
+2026-03-09 11:15:00.298 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:15:00.298 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:15:00.303 [http-nio-9090-exec-8] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:15:02.815 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:15:06.695 [http-nio-9090-exec-5] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 11:15:06.835 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:15:16.729 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:15:16.735 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:15:16.743 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:15:16.748 [http-nio-9090-exec-9] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 11:15:16.748 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 11:15:16.751 [http-nio-9090-exec-9] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 11:15:16.897 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:15:24.991 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:15:25.003 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:15:25.012 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:15:25.017 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 11:15:25.195 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:15:43.423 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 11:15:43.436 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 11:15:43.440 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 11:15:43.723 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 11:25:47.932 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 11:25:47.961 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-09 11:25:47.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-09 14:27:43.279 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-09 14:27:43.433 [restartedMain] INFO  com.rev.app.RevShopP2Application - Starting RevShopP2Application using Java 21.0.9 with PID 4604 (C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2\target\classes started by aravi in C:\Users\aravi\Desktop\RevShop_P2 (2))
+2026-03-09 14:27:43.433 [restartedMain] DEBUG com.rev.app.RevShopP2Application - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-03-09 14:27:43.433 [restartedMain] INFO  com.rev.app.RevShopP2Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-09 14:27:43.626 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\aravi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/aravi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2026-03-09 14:27:43.628 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-09 14:27:43.628 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-09 14:27:47.690 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09 14:27:48.065 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 348 ms. Found 13 JPA repository interfaces.
+2026-03-09 14:27:49.628 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-09 14:27:49.643 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-09 14:27:49.659 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-09 14:27:49.659 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-09 14:27:49.744 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-09 14:27:49.759 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6114 ms
+2026-03-09 14:27:50.192 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-09 14:27:50.916 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@e7d58e9
+2026-03-09 14:27:50.916 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-09 14:27:51.137 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-09 14:27:51.416 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-09 14:27:51.494 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-09 14:27:52.036 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09 14:27:52.325 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-09 14:27:55.330 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09 14:27:55.855 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 14:27:56.888 [restartedMain] DEBUG com.rev.app.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-09 14:27:58.028 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09 14:27:58.224 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-09 14:27:58.628 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7af14647, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a2f79c1, org.springframework.security.web.context.SecurityContextHolderFilter@2e640cc6, org.springframework.security.web.header.HeaderWriterFilter@6fd3319b, org.springframework.web.filter.CorsFilter@62b89393, org.springframework.security.web.authentication.logout.LogoutFilter@31fc076a, com.rev.app.config.JwtAuthFilter@2604890d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c9e8a35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@267ab822, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@385a06eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d3a3c8e, org.springframework.security.web.session.SessionManagementFilter@7d5a1e05, org.springframework.security.web.access.ExceptionTranslationFilter@30165124, org.springframework.security.web.access.intercept.AuthorizationFilter@286d1e76]
+2026-03-09 14:27:59.113 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-09 14:27:59.136 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-09 14:27:59.172 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2026-03-09 14:27:59.184 [restartedMain] INFO  com.rev.app.RevShopP2Application - Started RevShopP2Application in 17.053 seconds (process running for 23.858)
+2026-03-09 14:27:59.189 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - Starting database migration for Item-Level Order Status...
+2026-03-09 14:27:59.202 [restartedMain] INFO  com.rev.app.config.DbMigrationRunner - 'status' column already exists in 'order_item'.
+2026-03-09 14:28:08.345 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-09 14:28:08.346 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-09 14:28:08.347 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-09 14:28:08.442 [http-nio-9090-exec-1] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 14:28:08.443 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:28:08.710 [http-nio-9090-exec-1] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 14:28:09.468 [http-nio-9090-exec-4] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 14:28:09.815 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:28:11.857 [http-nio-9090-exec-5] INFO  com.rev.app.controller.AuthController - Displaying login form.
+2026-03-09 14:28:12.046 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:28:21.262 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:21.351 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:21.383 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:21.453 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Loading home page with featured products.
+2026-03-09 14:28:21.453 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:28:21.461 [http-nio-9090-exec-10] DEBUG com.rev.app.controller.HomeController - Fetched 4 total products, rendering 4 as featured.
+2026-03-09 14:28:21.761 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:28:31.893 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:31.909 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:31.925 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:31.938 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching product by ID: 26
+2026-03-09 14:28:31.942 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.ReviewServiceImpl - Fetching reviews for product ID: 26
+2026-03-09 14:28:32.200 [http-nio-9090-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:28:33.753 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:33.774 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:33.785 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:33.802 [http-nio-9090-exec-7] INFO  com.rev.app.service.Impl.CartServiceImpl - Adding 1 of product 26 to cart for user 25
+2026-03-09 14:28:33.935 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:33.946 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:33.959 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:33.970 [http-nio-9090-exec-8] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:34.209 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:28:37.657 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:37.674 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:37.691 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:37.698 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:37.707 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.AddressServiceImpl - Fetching addresses for user ID: 25
+2026-03-09 14:28:37.838 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:28:42.737 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:42.771 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:42.771 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:42.789 [http-nio-9090-exec-6] INFO  com.rev.app.controller.BuyerController - User riyaz11@gmail.com processing checkout payment DEBIT_CARD to address 1
+2026-03-09 14:28:42.789 [http-nio-9090-exec-6] INFO  com.rev.app.service.Impl.OrderServiceImpl - Processing order placement for user ID: 25
+2026-03-09 14:28:42.821 [http-nio-9090-exec-6] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Generated mock transaction ID TXN-1773091722821 for non-COD payment
+2026-03-09 14:28:42.821 [http-nio-9090-exec-6] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 25: Your order #8 has been placed successfully!
+2026-03-09 14:28:42.838 [http-nio-9090-exec-6] INFO  com.rev.app.service.Impl.NotificationServiceImpl - Sending notification to user ID 26: New order received: #8 for product LG 1.5 Ton 5 Star
+2026-03-09 14:28:42.912 [http-nio-9090-exec-6] INFO  com.rev.app.controller.BuyerController - Order placed successfully by user riyaz11@gmail.com
+2026-03-09 14:28:42.921 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:28:42.938 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:28:42.938 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:28:42.954 [http-nio-9090-exec-4] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 14:28:43.496 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:30.429 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:30.461 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:30.474 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:30.487 [http-nio-9090-exec-9] DEBUG com.rev.app.controller.NotificationController - Fetching notifications for user ID: 25
+2026-03-09 14:39:30.487 [http-nio-9090-exec-9] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:30.623 [http-nio-9090-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/styles.css.]
+2026-03-09 14:39:30.796 [http-nio-9090-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:40.508 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:40.526 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:40.539 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:40.544 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching orders for user ID: 25
+2026-03-09 14:39:40.958 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:45.923 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:45.941 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:45.953 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:45.965 [http-nio-9090-exec-5] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: null, Keyword search: null
+2026-03-09 14:39:45.965 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:39:46.113 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:49.995 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:50.016 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:50.035 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:50.041 [http-nio-9090-exec-10] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: null, Keyword search: null
+2026-03-09 14:39:50.041 [http-nio-9090-exec-10] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:39:50.189 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:51.841 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:51.866 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:51.874 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:51.887 [http-nio-9090-exec-1] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: null, Keyword search: null
+2026-03-09 14:39:51.887 [http-nio-9090-exec-1] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:39:52.002 [http-nio-9090-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:54.121 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:54.140 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:54.151 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:54.156 [http-nio-9090-exec-7] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: null, Keyword search: null
+2026-03-09 14:39:54.156 [http-nio-9090-exec-7] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:39:54.264 [http-nio-9090-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:56.963 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:56.981 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:56.992 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:57.005 [http-nio-9090-exec-3] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: null, Keyword search: null
+2026-03-09 14:39:57.005 [http-nio-9090-exec-3] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:39:57.195 [http-nio-9090-exec-6] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 14:39:59.455 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching unread notifications for user ID: 25
+2026-03-09 14:39:59.486 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.NotificationServiceImpl - Fetching all notifications for user ID: 25
+2026-03-09 14:39:59.505 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.CartServiceImpl - Fetching cart for user 25
+2026-03-09 14:39:59.520 [http-nio-9090-exec-5] INFO  com.rev.app.controller.BuyerController - Loading product catalog. Category filter: null, Keyword search: null
+2026-03-09 14:39:59.520 [http-nio-9090-exec-5] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-09 14:39:59.806 [http-nio-9090-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-09 15:31:14.948 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 15:31:15.125 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-09 15:31:15.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,208 @@
+2026-03-04 09:45:30.559 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "U1_0"."UPDATED_AT": invalid identifier
+
+2026-03-04 09:45:30.578 [http-nio-9090-exec-5] ERROR com.rev.app.controller.AuthController - Registration failed for user vamsiujwal19@gmail.com: JDBC exception executing SQL [select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role,u1_0.updated_at from users u1_0 where u1_0.email=?] [ORA-00904: "U1_0"."UPDATED_AT": invalid identifier
+] [n/a]; SQL [n/a]
+2026-03-04 10:06:47.417 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "U1_0"."UPDATED_AT": invalid identifier
+
+2026-03-04 10:06:47.429 [http-nio-9090-exec-8] ERROR com.rev.app.controller.AuthController - Registration failed for user vamsiujwal19@gmail.com: JDBC exception executing SQL [select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role,u1_0.updated_at from users u1_0 where u1_0.email=?] [ORA-00904: "U1_0"."UPDATED_AT": invalid identifier
+] [n/a]; SQL [n/a]
+2026-03-04 10:28:44.854 [http-nio-9090-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 10:52:03.871 [http-nio-9090-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "N1_0"."CREATED_AT": invalid identifier
+
+2026-03-04 10:52:17.224 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "N1_0"."CREATED_AT": invalid identifier
+
+2026-03-04 10:53:54.667 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "N1_0"."CREATED_AT": invalid identifier
+
+2026-03-04 11:05:21.587 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 11:07:44.475 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 11:07:44.515 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-00942: table or view does not exist
+] [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]
+2026-03-04 11:07:49.928 [http-nio-9090-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "R1_0"."CREATED_AT": invalid identifier
+
+2026-03-04 11:07:53.177 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "R1_0"."CREATED_AT": invalid identifier
+
+2026-03-04 11:09:32.789 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 11:09:32.809 [http-nio-9090-exec-5] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-00942: table or view does not exist
+] [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]
+2026-03-04 11:09:38.567 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 11:09:38.567 [http-nio-9090-exec-5] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-00942: table or view does not exist
+] [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]
+2026-03-04 11:09:48.309 [http-nio-9090-exec-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 11:09:48.319 [http-nio-9090-exec-2] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-00942: table or view does not exist
+] [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]
+2026-03-04 11:09:58.510 [http-nio-9090-exec-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 11:09:58.523 [http-nio-9090-exec-2] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-00942: table or view does not exist
+] [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_items (cart_id,product_id,quantity,id) values (?,?,?,?)]
+2026-03-04 11:29:08.601 [http-nio-9090-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:29:08.605 [http-nio-9090-exec-10] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:29:11.144 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:29:11.150 [http-nio-9090-exec-6] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:29:17.537 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:29:17.541 [http-nio-9090-exec-6] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:32:43.573 [http-nio-9090-exec-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:32:43.588 [http-nio-9090-exec-2] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:32:46.759 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:32:46.771 [http-nio-9090-exec-7] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:32:50.480 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:32:50.490 [http-nio-9090-exec-7] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:41:03.826 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:41:03.837 [http-nio-9090-exec-5] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:41:10.318 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:41:10.327 [http-nio-9090-exec-5] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:41:18.483 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:41:18.493 [http-nio-9090-exec-5] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:41:24.242 [http-nio-9090-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:41:24.248 [http-nio-9090-exec-3] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:53:59.741 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:53:59.747 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 11:54:05.270 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 11:54:05.274 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 12:10:42.042 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 12:10:42.056 [http-nio-9090-exec-9] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 12:10:46.787 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 12:10:46.789 [http-nio-9090-exec-9] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 12:13:02.036 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:13:52.759 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:14:14.627 [http-nio-9090-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:14:49.542 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:15:20.656 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:17:08.649 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:17:26.260 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 12:17:26.264 [http-nio-9090-exec-8] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 12:17:45.799 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 12:44:41.111 [http-nio-9090-exec-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 12:44:41.140 [http-nio-9090-exec-1] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 12:44:50.401 [http-nio-9090-exec-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 12:44:50.417 [http-nio-9090-exec-1] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 12:44:59.328 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 12:44:59.339 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to add product 1 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 14:19:14.235 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 14:19:14.298 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 14:19:21.189 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 14:19:21.204 [http-nio-9090-exec-6] ERROR com.rev.app.controller.BuyerController - Failed to add product 2 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 14:19:44.879 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 14:19:44.883 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to add product 1 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 14:20:55.183 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "O1_0"."CREATED_AT": invalid identifier
+
+2026-03-04 14:21:03.320 [http-nio-9090-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 14:21:08.072 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 14:21:19.511 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 14:21:27.834 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 14:21:27.837 [http-nio-9090-exec-6] ERROR com.rev.app.controller.BuyerController - Failed to add product 1 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 14:21:55.063 [http-nio-9090-exec-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 14:21:58.957 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 14:21:58.990 [http-nio-9090-exec-6] ERROR com.rev.app.controller.BuyerController - Failed to add product 1 to cart for user hemanth@gmail.com: could not execute statement [ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+] [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; SQL [insert into cart_item (cart_id,product_id,quantity,id) values (?,?,?,?)]; constraint [REVSHOP.FK_CARTITEM_PRODUCT]
+2026-03-04 14:31:49.819 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-02291: integrity constraint (REVSHOP.FK_CARTITEM_PRODUCT) violated - parent key not found
+
+2026-03-04 14:38:02.698 [http-nio-9090-exec-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 14:39:24.533 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 14:42:15.288 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "A1_0"."ZIP_CODE": invalid identifier
+
+2026-03-04 14:43:39.957 [http-nio-9090-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "A1_0"."ZIP_CODE": invalid identifier
+
+2026-03-04 14:49:51.488 [http-nio-9090-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "A1_0"."ZIP_CODE": invalid identifier
+
+2026-03-04 15:00:27.754 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00904: "UPDATED_AT": invalid identifier
+
+2026-03-04 15:00:27.758 [http-nio-9090-exec-4] ERROR com.rev.app.controller.BuyerController - Failed to process checkout for user hemanth@gmail.com: could not execute statement [ORA-00904: "UPDATED_AT": invalid identifier
+] [insert into orders (billing_address_id,created_at,shipping_address_id,status,total_amount,updated_at,user_id,id) values (?,?,?,?,?,?,?,?)]; SQL [insert into orders (billing_address_id,created_at,shipping_address_id,status,total_amount,updated_at,user_id,id) values (?,?,?,?,?,?,?,?)]
+2026-03-04 15:07:52.025 [http-nio-9090-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 15:07:52.033 [http-nio-9090-exec-3] ERROR com.rev.app.controller.BuyerController - Failed to process checkout for user hemanth@gmail.com: could not execute statement [ORA-00942: table or view does not exist
+] [insert into payments (amount,created_at,order_id,payment_method,status,transaction_id,id) values (?,?,?,?,?,?,?)]; SQL [insert into payments (amount,created_at,order_id,payment_method,status,transaction_id,id) values (?,?,?,?,?,?,?)]
+2026-03-04 15:37:50.967 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 15:37:51.449 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 15:37:52.667 [http-nio-9090-exec-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 15:37:59.188 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:21:52.479 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:21:56.817 [http-nio-9090-exec-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:01.697 [http-nio-9090-exec-6] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:02.801 [http-nio-9090-exec-7] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:03.685 [http-nio-9090-exec-4] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:04.552 [http-nio-9090-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:32.790 [http-nio-9090-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:33.860 [http-nio-9090-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 16:22:37.171 [http-nio-9090-exec-9] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00942: table or view does not exist
+
+2026-03-04 17:24:26.282 [http-nio-9090-exec-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - ORA-00001: unique constraint (REVSHOP.SYS_C004114) violated
+
+2026-03-04 17:24:26.313 [http-nio-9090-exec-2] ERROR com.rev.app.controller.SellerController - Failed to add product iPhone 17 Pro: could not execute statement [ORA-00001: unique constraint (REVSHOP.SYS_C004114) violated
+] [insert into product (category,created_at,description,discounted_price,image_url,inventory_threshold,category_id,name,price,quantity,seller_id,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into product (category,created_at,description,discounted_price,image_url,inventory_threshold,category_id,name,price,quantity,seller_id,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [REVSHOP.SYS_C004114]

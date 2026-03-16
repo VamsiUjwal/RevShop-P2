@@ -1,0 +1,153 @@
+2026-03-10 10:20:45.419 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 10:20:45.571 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units on order cancellation.
+2026-03-10 10:20:46.703 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 10:20:46.727 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 10:20:46.728 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:20:46.746 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 10:20:46.748 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units on order item cancellation.
+2026-03-10 10:20:46.795 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 10:20:46.797 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:28:56.543 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 10:28:56.576 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units on order cancellation.
+2026-03-10 10:28:56.923 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 10:28:56.962 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 10:28:56.963 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:28:57.018 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 10:28:57.019 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units on order item cancellation.
+2026-03-10 10:28:57.114 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 10:28:57.128 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:29:02.100 [main] INFO  com.rev.app.service.Impl.ProductServiceImpl - Updating existing product ID: 1
+2026-03-10 10:29:02.107 [main] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching product by ID: 1
+2026-03-10 10:29:02.134 [main] INFO  com.rev.app.service.Impl.ProductServiceImpl - Adding new product: Laptop
+2026-03-10 10:29:02.151 [main] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching product by ID: 1
+2026-03-10 10:29:02.191 [main] DEBUG com.rev.app.service.Impl.ProductServiceImpl - Fetching all products from repository.
+2026-03-10 10:34:41.598 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 10:34:41.619 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:34:41.832 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 10:34:41.854 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 10:34:41.855 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:34:41.878 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating whole order ID 1 to status CANCELLED (legacy)
+2026-03-10 10:34:41.878 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 10:34:41.881 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:34:41.922 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 10:34:41.925 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 10:34:41.963 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 10:34:41.964 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:38:46.898 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:38:46.931 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:38:47.020 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:38:47.220 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:38:47.221 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:38:47.249 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating whole order ID 1 to status CANCELLED (legacy)
+2026-03-10 19:38:47.249 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:38:47.251 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:38:47.266 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 19:38:47.266 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:38:47.292 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 19:38:47.293 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:39:34.594 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:39:34.630 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:39:34.635 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:39:34.951 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:39:34.973 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:39:34.973 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:39:34.975 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:39:34.994 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating whole order ID 1 to status CANCELLED (legacy)
+2026-03-10 19:39:34.994 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:39:34.994 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:39:34.994 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:39:35.025 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 19:39:35.025 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:39:35.033 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:39:35.050 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 19:39:35.053 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:39:35.053 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:45:19.824 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 19:45:19.920 [restartedMain] INFO  com.rev.app.RevShopP2Application - Starting RevShopP2Application using Java 21.0.9 with PID 16580 (C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2\target\classes started by aravi in C:\Users\aravi\Desktop\RevShop_P2 (2)\RevShop_P2)
+2026-03-10 19:45:19.925 [restartedMain] DEBUG com.rev.app.RevShopP2Application - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-03-10 19:45:19.928 [restartedMain] INFO  com.rev.app.RevShopP2Application - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 19:45:20.023 [restartedMain] INFO  org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\aravi\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/aravi/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2026-03-10 19:45:20.024 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 19:45:20.025 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 19:45:22.649 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 19:45:23.139 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 420 ms. Found 13 JPA repository interfaces.
+2026-03-10 19:45:24.611 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-03-10 19:45:24.664 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-03-10 19:45:24.674 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 19:45:24.674 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-10 19:45:24.789 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 19:45:24.797 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4763 ms
+2026-03-10 19:45:25.110 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 19:45:25.777 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@46b8bae2
+2026-03-10 19:45:25.781 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 19:45:25.963 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 19:45:26.176 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-10 19:45:26.288 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-10 19:45:27.120 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 19:45:27.916 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 19:45:32.470 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 19:45:33.266 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 19:45:34.032 [restartedMain] DEBUG com.rev.app.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-03-10 19:45:34.954 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10 19:45:35.171 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-10 19:45:35.591 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2102511, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73c21f57, org.springframework.security.web.context.SecurityContextHolderFilter@1c77978e, org.springframework.security.web.header.HeaderWriterFilter@82eee0e, org.springframework.web.filter.CorsFilter@6e229df6, org.springframework.security.web.authentication.logout.LogoutFilter@47b9717d, com.rev.app.config.JwtAuthFilter@4db294cf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c742138, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@634dfa38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@682c49c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49aeef70, org.springframework.security.web.session.SessionManagementFilter@2c253f0f, org.springframework.security.web.access.ExceptionTranslationFilter@a14b31c, org.springframework.security.web.access.intercept.AuthorizationFilter@eafe18d]
+2026-03-10 19:45:36.010 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-03-10 19:45:36.038 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-03-10 19:45:36.046 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-10 19:45:36.051 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 19:45:36.056 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 19:45:36.527 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 19:45:36.548 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-10 19:45:36.593 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2026-03-10 19:49:38.450 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:49:38.477 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:49:38.481 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:49:38.725 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:49:38.752 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:49:38.753 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:49:38.754 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:49:38.780 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating whole order ID 1 to status CANCELLED (legacy)
+2026-03-10 19:49:38.780 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:49:38.781 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:49:38.782 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:49:38.805 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 19:49:38.807 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:49:38.811 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:49:38.838 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 19:49:38.839 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:49:38.840 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:50:42.296 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:50:42.319 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:50:42.320 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:50:42.570 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:50:42.622 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status CANCELLED
+2026-03-10 19:50:42.622 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:50:42.623 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:50:42.641 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating whole order ID 1 to status CANCELLED (legacy)
+2026-03-10 19:50:42.642 [main] DEBUG com.rev.app.service.Impl.OrderServiceImpl - Fetching order by ID: 1
+2026-03-10 19:50:42.643 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:50:42.646 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:50:42.724 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Cancelling OrderItem ID: 1
+2026-03-10 19:50:42.729 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:50:42.736 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:50:42.785 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status RETURNED
+2026-03-10 19:50:42.788 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:50:42.790 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
+2026-03-10 19:50:42.810 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Updating OrderItem ID 1 to status REFUNDED
+2026-03-10 19:50:42.811 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Restored stock for product Test Product by 2 units. New stock: 12
+2026-03-10 19:50:42.812 [main] INFO  com.rev.app.service.Impl.OrderServiceImpl - Adjusted Order #1 total amount. Subtracted: 200.00. New total: 0.00
