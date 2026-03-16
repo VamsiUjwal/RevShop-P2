@@ -1,232 +1,306 @@
-# RevShop – Full Stack E-Commerce Web Application
+# 🛒 RevShop – Full Stack E-Commerce Web Application
 
-RevShop is a full-stack e-commerce web application developed using Spring Boot, Oracle Database, Thymeleaf, and Bootstrap.
-The system allows buyers and sellers to interact through a secure online marketplace.
+RevShop is a full-stack e-commerce web application developed using **Spring Boot, Spring Security, JWT Authentication, Thymeleaf, Hibernate, and Oracle Database**.
+The application provides secure role-based access for **Buyer, Seller, and Admin**, with complete shopping workflow including product management, cart, order processing, payment, and review system.
 
-Buyers can browse products, add items to cart, place orders, manage wishlist, write reviews, and track orders.
-Sellers can manage inventory, update products, process orders, and handle returns and refunds.
-
-The project follows MVC architecture and uses JWT-based authentication with role-based access control.
+This project demonstrates real-world backend architecture with layered design, security configuration, and database integration.
 
 ---
 
-Developed By
-Navuluru Vamsi Ujwal
-Final Year Major Project
+## 🚀 Project Highlights
 
-Technology
-Spring Boot | Java | Oracle | Thymeleaf | Bootstrap
-
----
-
-TECHNOLOGY STACK
-
-Frontend  : HTML, CSS, Bootstrap
-Backend   : Spring Boot
-Language  : Java
-Database  : Oracle XE
-ORM       : Hibernate / JPA
-Security  : Spring Security + JWT
-Template  : Thymeleaf
-Build Tool: Maven
-IDE       : IntelliJ IDEA
+✔ Role-based authentication using JWT
+✔ Spring Security integration
+✔ Buyer & Seller modules
+✔ Product management system
+✔ Cart & Order workflow
+✔ Payment module
+✔ Review & Rating system
+✔ Upload product images
+✔ Log system using Log4j2
+✔ Exception handling
+✔ Unit testing
+✔ ER Diagram & Class Diagram included
 
 ---
 
-SYSTEM ARCHITECTURE
+## 🧱 Architecture
 
-Browser
-↓
-Controller Layer
-↓
-Service Layer
-↓
-Repository Layer
-↓
-Oracle Database
+Layered Architecture used:
 
-Layers:
+Controller → Service → Repository → Database
 
-Presentation Layer → Thymeleaf + Bootstrap
-Controller Layer → Handles HTTP Requests
-Service Layer → Business Logic
-Repository Layer → Database Access
-Database Layer → Oracle
+Features:
+
+* REST + MVC Controllers
+* Service Interfaces + Implementation
+* JPA Repository
+* DTO Layer
+* Security Layer
+* Exception Handling Layer
 
 ---
 
-FEATURES
+## 🔐 Authentication & Security
 
-Buyer Features
+* Spring Security
+* JWT Token Authentication
+* Custom UserDetailsService
+* Role-based authorization
+* Password encryption
 
-* Register / Login
-* Browse Products
-* Add to Cart
-* Place Order
-* Order History
-* Wishlist
-* Reviews
-* Address Management
+Roles:
+
+* ADMIN
+* SELLER
+* BUYER
+
+---
+
+## 🛍 Buyer Module
+
+* View products
+* Add to cart
+* Remove from cart
+* Checkout
+* View orders
+* Wishlist / Favorites
 * Notifications
-* Return Order
+* Invoice generation
+* Product reviews
 
-Seller Features
+Pages:
 
-* Add Product
-* Update Product
-* Delete Product
-* Manage Inventory
-* View Orders
-* Update Order Status
-* Refund Processing
-
-System Features
-
-* JWT Authentication
-* Role Based Login
-* MVC Architecture
-* Order Tracking
-* Notification System
-* Address Book
-* Review System
+* products.html
+* cart.html
+* checkout.html
+* favorites.html
+* orders.html
+* invoice.html
 
 ---
 
-PROJECT STRUCTURE
+## 🏪 Seller Module
 
-com.rev.app
+* Seller dashboard
+* Add product
+* Edit product
+* Delete product
+* Upload images
+* Manage inventory
+* View orders
 
-controller
+Pages:
 
-* BuyerController
-* SellerController
-* AuthController
-* AddressController
-* NotificationController
-
-service
-Interface
-Impl
-
-* OrderServiceImpl
-* ProductServiceImpl
-* CartServiceImpl
-* ReviewServiceImpl
-* FavoriteServiceImpl
-* AddressServiceImpl
-* NotificationServiceImpl
-
-repository
-
-* IProductRepository
-* IOrderRepository
-* ICartRepository
-* IReviewRepository
-* IFavoriteRepository
-* IAddressRepository
-* INotificationRepository
-* IOrderItemRepository
-
-entity
-
-* User
-* Product
-* Cart
-* CartItem
-* Order
-* OrderItem
-* Address
-* Payment
-* Review
-* Favorite
-* Notification
-
-config
-
-* SecurityConfig
-* JwtAuthFilter
-* JwtUtil
-
-dto
-util
-exception
+* dashboard.html
+* inventory.html
+* product-form.html
+* seller-orders.html
 
 ---
 
-DATABASE TABLES
+## 💳 Payment Module
 
-USERS
-PRODUCT
-CART
-CART_ITEM
-ORDERS
-ORDER_ITEMS
-ADDRESS
-PAYMENT
-REVIEW
-FAVORITE
-NOTIFICATION
+* Payment Service
+* Order creation
+* Invoice generation
+* Payment status
+
+Interfaces:
+
+* IPaymentService
+* IOrderService
 
 ---
 
-SECURITY
+## ⭐ Review & Rating Module
 
-Spring Security
-JWT Authentication
-Role Based Authorization
+* Add review
+* View review
+* Product rating
+* Review service
 
-JWT Flow
+Interfaces:
 
-Login → Token Generated → Token Sent → Token Verified → Access Granted
-
----
-
-DIAGRAMS INCLUDED
-
-ER Diagram
-Class Diagram
-Use Case Diagram
-Sequence Diagram
-Activity Diagram
+* IReviewService
 
 ---
 
-HOW TO RUN
+## 📦 Product Module
 
-1 Clone project
+* Product CRUD
+* Category support
+* Image upload
+* Product search
 
+Interfaces:
+
+* IProductService
+
+---
+
+## 👤 User Module
+
+* Register
+* Login
+* Forgot password
+* Role assignment
+* Address management
+
+Interfaces:
+
+* IUserService
+
+---
+
+## 🛠 Tech Stack
+
+| Technology      | Description          |
+| --------------- | -------------------- |
+| Java 21         | Programming language |
+| Spring Boot     | Backend framework    |
+| Spring Security | Authentication       |
+| JWT             | Token security       |
+| Maven           | Build tool           |
+| Hibernate / JPA | ORM                  |
+| Oracle DB       | Database             |
+| Thymeleaf       | Frontend             |
+| HTML / CSS      | UI                   |
+| Log4j2          | Logging              |
+| JUnit           | Testing              |
+
+---
+
+## 📁 Project Structure
+
+```
+src/main/java/com/rev/app
+ ├── controller
+ ├── service
+ │    ├── Interface
+ │    └── Impl
+ ├── repository
+ ├── entity
+ ├── config
+ ├── security
+ ├── dto
+ ├── exception
+ └── util
+
+resources
+ ├── templates
+ ├── static
+ ├── application.properties
+ ├── schema.sql
+ └── log4j2.xml
+
+test
+ ├── controller
+ ├── service
+ └── repository
+```
+
+---
+
+## ⚙️ How to Run Project
+
+### 1 Clone repo
+
+```
 git clone https://github.com/VamsiUjwal/RevShop-P2.git
+```
 
-2 Open in IntelliJ
+### 2 Open in IntelliJ
 
-3 Configure application.properties
+Open as Maven Project
 
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:XE
-spring.datasource.username=revshop
-spring.datasource.password=revshop
+### 3 Configure Database
 
-4 Run
+Edit:
 
+```
+application.properties
+```
+
+Example:
+
+```
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.username=system
+spring.datasource.password=oracle
+```
+
+### 4 Run Application
+
+Run:
+
+```
 RevShopP2Application.java
+```
 
-5 Open
+### 5 Open Browser
 
+```
 http://localhost:9090
+```
+
+
+## 📊 Diagrams Included
+
+* ER Diagram
+* Class Diagram
+* Project Documentation
+
+Files:
+
+* EER Diagram.pdf
+* revshop_class_diagram.png
+* revshop_er_diagram.png
 
 ---
 
-FUTURE ENHANCEMENTS
+## 🧪 Testing
 
-Payment Gateway
-Email Notifications
-Cloud Deployment
-Mobile App
-AI Recommendation
-Real-time Tracking
+JUnit tests included for:
+
+* Controller
+* Service
+* Repository
 
 ---
 
-PROJECT TYPE
+## 📝 Logs
 
-Final Year Major Project
-Full Stack Spring Boot Application
+Log4j2 used
+
+Logs folder:
+
+```
+logs/
+```
+
+---
+
+## 👨‍💻 Author
+
+Vamsi Ujwal
+Java Full Stack Developer
+
+Skills:
+
+* Java
+* Spring Boot
+* SQL / Oracle
+* Hibernate
+* JWT
+
+
+---
+
+## ✅ Project Status
+
+✔ Completed
+✔ Tested
+✔ Ready for submission
+✔ Portfolio ready
+✔ Interview ready
